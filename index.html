@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HDN Newbies</title>
+        <meta name="author" content="Marcelo Pinheiro">
+        <meta name="keywords" content="sites, web, desenvolvimento, html, estagio, newbies, hdn">
+    </head>
+    <body style="background-color: grey;">
+        <!--
+        <h1 style="color: green;text-align: right;">Título</h1>
+        <h2>Título</h2>
+        <h3>Título</h3>
+        <h4>Título</h4>
+        <h5>Título</h5>
+        <h6>Título</h6>
+
+        <br><br><br>
+
+        <p style="font-size: 150%;font-family: 'Courier New', Courier, monospace;">
+            <b>Mussum</b> <strong>Ipsum</strong>, <i>cacilds</i> vidis <del>litro</del> <sup>abertis</sup>. <sub>Si</sub> num tem leite então bota <br>uma pinga aí cumpadi! Quem manda na minha terra sou euzis! Viva Forevis aptent taciti sociosqu ad litora torquent. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.
+
+            <u>Mé</u> faiz elementum girarzis, nisi eros vermeio. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.
+
+        </p>
+
+        <p>
+            Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! Quem manda na minha terra sou euzis! Viva Forevis aptent taciti sociosqu ad litora torquent. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.
+
+            Mé faiz elementum girarzis, nisi eros vermeio. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.
+
+        </p>
+    -->
+
+    <!-- Esta tag guarda o nome do usuário 
+    <h1>Marcelo</h1> -->
+
+        <header>
+            <h1>Olá, eu sou um cabeçalho</h1>
+        </header>
+        <nav>
+            <a href="teste.html">Vá para outra página</a>
+        </nav>
+        <section class="apresentacao" id="apresentacao" style="color: white; background-color: black;">
+            <div class="apresentacao_titulo">
+                <h3>Apresentação</h3>
+            </div>
+            <div class="apresentacao_conteudo">
+                <p>
+                    Oi, <span style="color: red">Eu sou um parágrafo</span> dentro de uma sessão da página html do Marcelo.
+                    Eu trago uma informação específica a estou me apresentando porque estou dentro da sessão de apresentação.
+                </p>
+            </div>
+            <div class="apresentacao_rodape">
+                <p>
+                    teste 2
+                </p>
+            </div>
+        </section>
+        <hr>
+        <section class="oqueeufaco" style="background-color: indianred;">
+            <p>
+                Sou um site de treinamento para o programa HDN Newbies.
+            </p>
+            <img src="imagens/gatinho.jpg" style="float: left" alt="Gatinho bonitinho">
+            <form action="teste.html" method="POST" style="float: right">
+                <label style="color: greenyellow" for="nome_do_gato">Dê um nome pro gato</label><br>
+                <input type="text" name="nome_do_gato" id="nome_do_gato">
+
+                <br>
+
+                <label style="color: greenyellow" for="sexo_do_gato">Especifique o sexo do gato</label><br>
+                <label>Macho <input type="radio" name="sexo_do_gato" value="macho" id="nome_do_gato"></label><br>
+                <label>Femea <input type="radio" name="sexo_do_gato" value="femea" id="nome_do_gato"></label>
+
+                <br>
+
+                <label style="color: greenyellow" for="temperamento_do_gato">Especifique o temperamento</label><br />
+                <br>
+                <br>
+                <label>Brincalhão <input type="checkbox" name="temperamento_do_gato" value="brincalhao"></label><br>
+                <br>
+                <br>
+                <label>Bravo <input type="checkbox" name="temperamento_do_gato" value="bravo"></label><br>
+                <label>Carinhoso <input type="checkbox" name="temperamento_do_gato" value="carinhoso"></label><br>
+                <label>Escandaloso <input type="checkbox" name="temperamento_do_gato" value="escandaloso"></label><br>
+                <label>Ranzinza <input type="checkbox" name="temperamento_do_gato" value="ranzinza"></label><br>
+
+                <label style="color: greenyellow" for="nascimento_gato">Data de nascimento do gato</label><br>
+                <input type="date" name="nascimento_gato" id="nascimento_gato"><br />
+
+                <label style="color: greenyellow" for="numero_dentes_gato">Numero de dentes do gato</label><br>
+                <input type="number" name="numero_dentes_gato" id="numero_dentes_gato" min="1" max="25">
+
+                <input type="submit" value="Enviar"/>
+            </form>
+        </section>
+        <!--
+        <footer>
+            <p>Olá,eu sou o footer do site do Marcelo. Obrigado por acessar o site.</p>
+        </footer> -->
+    </body>
+</html>
